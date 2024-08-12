@@ -56,7 +56,7 @@ in {
      }:
       let
         platform = getPlatform stdenv;
-        arch = getArch stdenv;
+        #arch = getArch stdenv;
         arch = "aarch64";
       in
       stdenv.mkDerivation {
